@@ -1,0 +1,11 @@
+type Account {
+  name: String
+}
+
+type Institution {
+  name: String!
+}
+
+type Transaction {
+  timestamp: Date!
+}

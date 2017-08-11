@@ -1,0 +1,8 @@
+# Unable to use version 3 for now due to circle issue...
+# https://discuss.circleci.com/t/circle-ci-and-docker-compose-version-2-yaml-syntax/4708
+# version: "3"
+# services:
+db:
+  image: postgres:9.6 # Default version on Heroku
+  ports:
+    - 5432:5432
